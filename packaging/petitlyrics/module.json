@@ -1,0 +1,10 @@
+{
+  "id": "petitlyrics",
+  "name": "PetitLyrics",
+  "version": "1.0.0",
+  "author": "Rizky088",
+  "description": "Word-synced (WSY) and plain lyrics from PetitLyrics (strong JP & anime catalog).",
+  "icon": "icon.png",
+  "apk": "module.apk",
+  "code": "module.apk"
+}

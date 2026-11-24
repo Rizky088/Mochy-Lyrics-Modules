@@ -1,0 +1,10 @@
+{
+  "id": "megalobiz-lyrics",
+  "name": "Megalobiz",
+  "version": "1.0.0",
+  "author": "Rizky088",
+  "description": "Synchronized LRC lyrics from Megalobiz Public API v1.",
+  "icon": "icon.png",
+  "apk": "module.apk",
+  "code": "module.apk"
+}

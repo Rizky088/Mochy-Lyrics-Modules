@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="PetitLyrics">
+        <meta-data
+            android:name="com.mochyy.mochymusic.module.entry"
+            android:value="com.rizky088.mochymodules.petitlyrics.PetitLyricsModule" />
+    </application>
+</manifest>
