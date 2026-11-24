@@ -75,8 +75,9 @@ class PetitLyricsModule : LyricsModule, ModuleFields {
     )
 
     private fun findSong(query: TrackQuery, rawTitle: String, primaryArtist: String, lyricsType: Int): PetitSong? {
-        if (!query.isrc.isNullOrBlank()) {
-            val byIsrc = fetchSongs(mapOf("key_isrc" to query.isrc.trim()), lyricsType)
+        val isrc = query.isrc?.trim()
+        if (!isrc.isNullOrEmpty()) {
+            val byIsrc = fetchSongs(mapOf("key_isrc" to isrc), lyricsType)
             byIsrc.firstOrNull { it.lyricsData.isNotBlank() }?.let { return it }
         }
 
