@@ -5,6 +5,8 @@
   "author": "Rizky088",
   "description": "Synchronized LRC lyrics from Megalobiz Public API v1.",
   "icon": "icon.png",
-  "apk": "module.apk",
+  "resources": [
+    "lyrics"
+  ],
   "code": "module.apk"
 }

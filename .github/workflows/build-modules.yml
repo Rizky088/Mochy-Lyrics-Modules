@@ -37,11 +37,11 @@ jobs:
       - name: Package Installable Module ZIPs
         run: |
           mkdir -p dist/megalobiz dist/petitlyrics
-          cp packaging/megalobiz/module.json packaging/megalobiz/icon.png dist/megalobiz/
+          cp packaging/megalobiz/manifest.json packaging/megalobiz/icon.png dist/megalobiz/
           cp megalobiz/build/outputs/apk/release/*.apk dist/megalobiz/module.apk
           (cd dist/megalobiz && zip -r ../megalobiz-lyrics.zip .)
 
-          cp packaging/petitlyrics/module.json packaging/petitlyrics/icon.png dist/petitlyrics/
+          cp packaging/petitlyrics/manifest.json packaging/petitlyrics/icon.png dist/petitlyrics/
           cp petitlyrics/build/outputs/apk/release/*.apk dist/petitlyrics/module.apk
           (cd dist/petitlyrics && zip -r ../petitlyrics.zip .)
           ls -lh dist/*.zip
